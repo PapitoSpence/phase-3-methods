@@ -19,13 +19,14 @@ def greet (name= "Naureen")
     num1
     num2
     num1 + num2
-end
+    end
 puts add(1,1) + add(2,2)
 
 def halve(num1=7)
     if num1.class != Integer
         return nil
     end
+    
     num1 / 2
     end
     
